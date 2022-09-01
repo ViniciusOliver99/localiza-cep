@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/homecepp.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Cep</title>
+</head>
+<body>
+
+    <h1 class="h1">Buscar Cep</h1>
+    <h2>Digite o Cep:</h2>
+    <main id="main">
+        <form id="form" action="{% url 'cep'%}" method="POST">{% csrf_token %}
+            <h1 id="h1erro"></h1>
+            <h2 id="h2erro"></h2>
+            <input class="input" id="input" type="text" placeholder="Cep..." name="cep">
+            <br>
+            <br>
+            <input onclick="semNum()" class="btn" id="btn" type="button" value="Consultar">
+        </form>
+
+    </main>
+    <script src="{% static 'js/js.js' %}"></script>
+</body>
+</html>

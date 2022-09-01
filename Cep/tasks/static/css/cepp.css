@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(45deg, #ffffff, #bbf7fc, #9ceafd, #9efff7);
+    background-size: 300% 100%;
+    animation: body-anime 15s ease-in-out infinite;
+    height: 200vh;
+}
+
+#h{
+    text-decoration: none;
+    list-style: none;
+    font-size: 40px;
+    color: rgb(48, 48, 48);
+    background-color: #ffffff1c;
+    box-shadow: 0 0 10px 0 rgb(65, 65, 65);
+    border-radius: 2rem;
+    text-align: center;
+    transition: .6s;
+}
+
+#h:hover{
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    background-color: #ffffff3d;
+}
+
+@keyframes body-anime{
+    0% {
+    background-position: 0% 50%;
+   }
+   50%{
+    background-position: 100% 50%;
+   }
+   100%{
+    background-position: 0% 50%;
+   }
+}
+
+#h1{
+    font-size:50px;
+    text-align: center;
+    background-color: #ffffff69;
+    width: 500px;
+    height: 70px;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 3rem;
+    animation: h1 2s ease-out alternate;
+    overflow: hidden;
+    transition: .6s;
+
+}
+
+@keyframes h1{
+    0% {
+        margin-left: -50%;
+   }
+   50%{
+    margin-left: 20%;
+   }
+   100%{
+    margin-left: 35%;
+   }
+}
+
+#h1:hover{
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    background-color: #ffffff3d;
+}
+
+#h2{
+    font-size:40px;
+    text-align: center;
+    background-color: #ffffff69;
+    width: 500px;
+    height: 60px;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+    margin-top: 0%;
+    margin-left: 35%;
+    border-radius: 3rem;
+    animation: h2 2s ease-out alternate;
+    overflow: hidden;
+    transition: .6s;
+
+}
+
+@keyframes h2{
+    0% {
+        margin-left: 100%;
+   }
+   50%{
+    margin-left: 40%;
+   }
+   100%{
+    margin-left: 35%;
+   }
+}
+
+#h2:hover{
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    background-color: #ffffff3d;
+}
+
+#h3{
+    font-size:40px;
+    text-align: center;
+    background-color: #ffffff69;
+    width: 500px;
+    height: 60px;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+    margin-top: 0%;
+    margin-left: 35%;
+    border-radius: 3rem;
+    animation: h1 2s ease-out alternate;
+    overflow: hidden;
+    transition: .6s;
+
+}
+
+#h3:hover{
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    background-color: #ffffff3d;
+}
+
+#h4{
+    font-size:40px;
+    text-align: center;
+    background-color: #ffffff69;
+    width: 500px;
+    height: 60px;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+    margin-top: 0%;
+    margin-left: 35%;
+    border-radius: 3rem;
+    animation: h2 2s ease-out alternate;
+    overflow: hidden;
+    transition: .6s;
+
+}
+
+#h4:hover{
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    background-color: #ffffff3d;
+}
+
+#h5{
+    font-size:40px;
+    text-align: center;
+    background-color: #ffffff69;
+    width: 500px;
+    height: 60px;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+    margin-top: 0%;
+    margin-left: 35%;
+    border-radius: 3rem;
+    animation: h1 2s ease-out alternate;
+    overflow: hidden;
+    transition: .6s;
+
+}
+
+#h5:hover{
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    background-color: #ffffff3d;
+}
+
+#h6{
+    font-size:40px;
+    text-align: center;
+    background-color: #ffffff69;
+    width: 500px;
+    height: 60px;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+    margin-top: 0%;
+    margin-left: 35%;
+    border-radius: 3rem;
+    animation: h2 2s ease-out alternate;
+    overflow: hidden;
+    transition: .6s;
+
+}
+
+#h6:hover{
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    background-color: #ffffff3d;
+}
+
+#h7{
+    font-size:40px;
+    text-align: center;
+    background-color: #ffffff69;
+    width: 500px;
+    height: 60px;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+    margin-top: 0%;
+    margin-left: 35%;
+    border-radius: 3rem;
+    animation: h1 2s ease-out alternate;
+    overflow: hidden;
+    transition: .6s;
+
+}
+
+#h7:hover{
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    background-color: #ffffff3d;
+}
+
+#h8{
+    font-size:40px;
+    text-align: center;
+    background-color: #ffffff69;
+    width: 500px;
+    height: 60px;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+    margin-top: 0%;
+    margin-left: 35%;
+    border-radius: 3rem;
+    animation: h2 2s ease-out alternate;
+    overflow: hidden;
+    transition: .6s;
+
+}
+
+#h8:hover{
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    background-color: #ffffff3d;
+}
+
